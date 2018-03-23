@@ -1,0 +1,16 @@
+This folder contains the code necessary to run simulations for the seasonally-forced SEIR epidemic model by Schwartz and Smith (1983).
+
+Contents
+
+bifurc_sim   : Uses the model and analysis of Schwartz and Smith (1983)
+               to plot solutions to the seasonally-forced SEIR epidemic model
+               near the period-doubling bifurction for measles-specific parameter values     
+               
+runSEIR     :  Implemenation of the SEIR model (not seasonally-forced)
+               with measles-specific disease parameters; initial state currently set to
+               the steady state solution of system
+               
+simModel    :  Plots seasonally forced period 1 solutions in the X-Z phase plane
+
+plotFlu     :  Plots influenza data (weighted ILI) downloaded from the CDC FluView website 
+               to demonstrate seasonality of the flu
